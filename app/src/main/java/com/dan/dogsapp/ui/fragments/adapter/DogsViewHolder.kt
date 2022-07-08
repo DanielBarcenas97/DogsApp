@@ -7,7 +7,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.dan.dogsapp.databinding.ItemBinding
 import com.dan.dogsapp.model.models.ResponseItem
 
-class SuperHeroViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+class DogsViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
     private val binding = ItemBinding.bind(view)
 

@@ -1,10 +1,10 @@
-package com.dan.dogsapp.model.repository
+package com.dan.dogsapp.domain
 
 import com.dan.dogsapp.model.models.ResponseDog
 
 
 class DogsUseCase(
-    private val repository:RepositoryDogs = RepositoryDogs()
+    private val repository: RepositoryDogs = RepositoryDogs()
 ) {
 
     suspend  fun getList(): ResponseDog? {

@@ -1,4 +1,4 @@
-package com.dan.dogsapp.model.repository
+package com.dan.dogsapp.domain
 
 import com.dan.dogsapp.model.models.ResponseDog
 import com.dan.dogsapp.model.remote.Service

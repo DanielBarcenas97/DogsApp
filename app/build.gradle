@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -58,7 +59,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.1'
 
     /* - - - Coroutines - - - */
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
 
     /* - - - Lifecycle - - - */
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0"

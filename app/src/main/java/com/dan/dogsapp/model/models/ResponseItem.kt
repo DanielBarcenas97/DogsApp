@@ -1,8 +1,10 @@
 package com.dan.dogsapp.model.models
 
-
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class ResponseItem(
     @SerializedName("age")
     val age: Int,
@@ -12,4 +14,4 @@ data class ResponseItem(
     val dogName: String,
     @SerializedName("image")
     val image: String
-)
+) : Parcelable
